@@ -47,13 +47,23 @@ export default function Home() {
                 war-like scenarios.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
-                <button className="px-6 py-3 bg-blue-600/20 border border-blue-500 text-blue-100 hover:bg-blue-500/30 transition-colors rounded relative overflow-hidden group">
+                <a
+                  href="https://github.com/jagath-sajjan/PathRakshak"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-blue-600/20 border border-blue-500 text-blue-100 hover:bg-blue-500/30 transition-colors rounded relative overflow-hidden group inline-block"
+                >
                   <span className="relative z-10">System Overview</span>
                   <span className="absolute inset-0 bg-blue-500/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-                </button>
-                <button className="px-6 py-3 border border-blue-500/50 text-blue-300 hover:bg-blue-900/30 transition-colors rounded">
+                </a>
+                <a
+                  href="https://github.com/jagath-sajjan/PathRakshak/blob/main/tech-doc.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 border border-blue-500/50 text-blue-300 hover:bg-blue-900/30 transition-colors rounded inline-block"
+                >
                   Technical Specifications
-                </button>
+                </a>
               </div>
             </div>
             <div className="relative">
@@ -974,13 +984,23 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <button className="px-6 py-3 bg-blue-600/20 border border-blue-500 text-blue-100 hover:bg-blue-500/30 transition-colors rounded relative overflow-hidden group">
+                <a
+                  href="https://github.com/jagath-sajjan/PathRakshak/blob/main/req-access.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-blue-600/20 border border-blue-500 text-blue-100 hover:bg-blue-500/30 transition-colors rounded relative overflow-hidden group inline-block"
+                >
                   <span className="relative z-10">Request System Access</span>
                   <span className="absolute inset-0 bg-blue-500/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-                </button>
-                <button className="px-6 py-3 border border-blue-500/50 text-blue-300 hover:bg-blue-900/30 transition-colors rounded">
+                </a>
+                <a
+                  href="https://github.com/jagath-sajjan/PathRakshak/blob/main/tech-doc.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 border border-blue-500/50 text-blue-300 hover:bg-blue-900/30 transition-colors rounded inline-block"
+                >
                   Technical Documentation
-                </button>
+                </a>
               </div>
 
               <div className="mt-8 pt-8 border-t border-blue-500/20 text-center">
